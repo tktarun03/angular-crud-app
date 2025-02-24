@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "projects": {
+        "angular-crud-app": {
+            "projectType": "application",
+            "root": "",
+            "sourceRoot": "src",
+            "prefix": "app",
+            "architect": {
+                "build": {
+                    "builder": "@angular-devkit/build-angular:browser",
+                    "options": {
+                        "outputPath": "dist/angular-crud-app",
+                        "index": "src/index.html",
+                        "main": "src/main.ts",
+                        "tsConfig": "tsconfig.app.json"
+                    }
+                }
+            }
+        }
+    }
+}
